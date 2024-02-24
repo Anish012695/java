@@ -1,6 +1,3 @@
-package java;
-
-
 public class isEven {
     public static boolean iseven(int n){
         if(n%2==0){
