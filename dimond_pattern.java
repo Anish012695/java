@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class dimond_pattern {
     public static void dimmond(int n){
         for(int i=0;i<n;i++){
@@ -20,6 +22,8 @@ public class dimond_pattern {
         }
     }
     public static void main(String[] args) {
-        dimmond(5);
+        Scanner sc =new Scanner(System.in);
+        int number=sc.nextInt();
+        dimmond(number);
     }
 }
