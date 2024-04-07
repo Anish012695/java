@@ -11,6 +11,8 @@ public class selectionsort {
                 arr[minpos]=arr[i];
                 arr[i]=temp;
         }
+        System.out.println(arr);
+        System.out.println();
     }
     public static void main(String[] args) {
         int arr[]={5,4,1,3,2};
