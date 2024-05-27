@@ -1,4 +1,4 @@
-public class cunstroctor() {
+public class cunstroctor{
     int a; String name;
     cunstroctor(){
         a=120; name="anish mukahrjee";
@@ -13,3 +13,4 @@ class b{
         a.show();
     }
 }
+
